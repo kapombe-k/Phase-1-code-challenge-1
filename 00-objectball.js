@@ -125,3 +125,8 @@ function shoeSize() {
   return gameObject.home.players[""].shoe;
 }
 
+function teamColors() {
+  return gameObject.home.colors;
+}
+
+
