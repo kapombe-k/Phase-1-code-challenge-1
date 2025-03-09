@@ -133,3 +133,9 @@ function teamNames() {
   return gameObject.away.teamName;
 }
 
+
+function playerNumbers() {
+  return gameObject.away.players[""].number;
+}
+
+
