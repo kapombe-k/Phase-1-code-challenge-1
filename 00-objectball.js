@@ -150,3 +150,14 @@ function mostPointsScored() {
     }
     return max;
 }
+
+function winningTeam() {
+    if (gameObject.home.score > gameObject.away.score) {
+        return gameObject.home.teamName;
+    } else if (gameObject.away.score > gameObject.home.score) {
+        return gameObject.away.teamName;
+    } else {
+        return "DRAW!";
+        }
+}
+
