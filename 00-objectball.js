@@ -133,10 +133,20 @@ function teamNames() {
   return gameObject.away.teamName;
 }
 
-
 function playerNumbers() {
   return gameObject.away.players[""].number;
 }
 
 function playerStats() {
-  return gameObject.away.players["Brendan Haywood"];
+    return gameObject.away.players[""];
+}
+
+function mostPointsScored() {
+    let max = 0;
+    for (let player in gameObject.away.players) {
+        if (gameObject.away.players[player].points > max) {
+            max = gameObject.away.players[player].points;
+            }
+    }
+    return max;
+}
