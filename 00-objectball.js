@@ -161,3 +161,12 @@ function winningTeam() {
         }
 }
 
+function playerWithLongestName() {
+    let longestName = "";
+    for (let player in gameObject.away.players) {
+        if (gameObject.away.players[player].name.length > longestName.length) {
+            longestName = gameObject.away.players[player].name;
+        }
+    }
+    return longestName;
+}
