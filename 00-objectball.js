@@ -171,6 +171,7 @@ function playerWithLongestName() {
     return longestName;
 }
 
+/*
 function doesLongNameStealATon() {
     let longestName = playerWithLongestName();
     let longestNamePoints = 0;
@@ -185,3 +186,4 @@ function doesLongNameStealATon() {
         return false;
         }
 }
+*/
