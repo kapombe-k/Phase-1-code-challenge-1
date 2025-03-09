@@ -129,4 +129,7 @@ function teamColors() {
   return gameObject.home.colors;
 }
 
+function teamNames() {
+  return gameObject.away.teamName;
+}
 
