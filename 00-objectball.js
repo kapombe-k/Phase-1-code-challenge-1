@@ -138,4 +138,5 @@ function playerNumbers() {
   return gameObject.away.players[""].number;
 }
 
-
+function playerStats() {
+  return gameObject.away.players["Brendan Haywood"];
