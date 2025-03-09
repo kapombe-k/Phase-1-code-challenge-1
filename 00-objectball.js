@@ -170,3 +170,18 @@ function playerWithLongestName() {
     }
     return longestName;
 }
+
+function doesLongNameStealATon() {
+    let longestName = playerWithLongestName();
+    let longestNamePoints = 0;
+    for (let player in gameObject.away.players) {
+        if (gameObject.away.players[player].name === longestName) {
+            longestNamePoints = gameObject.away.players[player].points;
+        }
+    }
+    if (longestNamePoints > 10) {
+        return true;
+    } else {
+        return false;
+        }
+}
