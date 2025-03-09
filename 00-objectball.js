@@ -121,4 +121,7 @@ console.log(homeTeamName());
 function numPointsScored() {
     return gameObject.home.players[""].points;
 }
+function shoeSize() {
+  return gameObject.home.players[""].shoe;
+}
 
