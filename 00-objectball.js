@@ -112,3 +112,6 @@ const gameObject = {
   },
 };
 
+function homeTeamName() {
+    return gameObject ["home"]["teamName"]
+}
