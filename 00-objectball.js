@@ -116,4 +116,9 @@ function homeTeamName() {
     return gameObject.home.teamName;
 }
 
-console.log ( homeTeamName());
+console.log(homeTeamName());
+
+function numPointsScored() {
+    return gameObject.home.players[""].points;
+}
+
