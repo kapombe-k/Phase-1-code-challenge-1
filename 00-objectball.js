@@ -113,8 +113,7 @@ const gameObject = {
 };
 
 function homeTeamName() {
-    let object = gameObject();
-    return object.home.teamName;
+    return gameObject.home.teamName;
 }
 
 console.log ( homeTeamName());
