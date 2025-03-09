@@ -1,5 +1,5 @@
 console.log("Advanced debugging example running.");
-debugger;
+//debugger;
 
 // first, define the function.
 function goodPractices() {
